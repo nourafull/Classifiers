@@ -2,8 +2,13 @@
 # coding: utf-8
 
 # In[8]:
-
-
+"""
+This is an example of using Logistic Regression to build a binary classifier. 
+First we created some smaple data using the gen_data function, and plotted the data. 
+Then we use Scikit Learn to create the Logistic Regression model.
+Last, we generate points from [-5,-5] to [5,5] and plot the probability of the points belonging to class 1, 
+then plot the probability of the points belonging to class 2. 
+"""
 import scipy.stats as ss 
 import matplotlib.pyplot as plt 
 import numpy as np
